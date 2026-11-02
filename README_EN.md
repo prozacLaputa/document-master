@@ -6,11 +6,11 @@ A portable document editing and review skill for AI agents. It preserves meaning
 
 ## Usage
 
-Download `document-master-0.4.0.zip` from GitHub Releases and import it into a compatible host, or place its `document-master/` folder in the host's skill directory and reload. Start at [SKILL.md](document-master/SKILL.md).
+Download `document-master-0.5.0.zip` from GitHub Releases and import it into a compatible host, or place its `document-master/` folder in the host's skill directory and reload. Start at [SKILL.md](document-master/SKILL.md).
 
 Example: “Review this proposal with Document Master. Preserve its meaning and provide the revised draft, key changes and items requiring verification.”
 
-AgentBuddy version: `skills:skills.byted.org/default/public/document-master:0.4.0`.
+AgentBuddy version: `skills:skills.byted.org/default/public/document-master:0.5.0`.
 
 ## Scope and limitations
 
