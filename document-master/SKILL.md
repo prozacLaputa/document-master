@@ -2,7 +2,7 @@
 name: document-master
 description: 整理、撰写和审校用户指定的文档，按用途与读者检查结构、语义、术语和事实疑点，保留原意并减少 AI 套话；也可从授权参考文档提炼适用写法。适用于文档大师、审稿、修订、文档整理和范例学习任务。
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # 文档大师
@@ -17,9 +17,9 @@ metadata:
 1. 读取 [编辑规范](references/editorial-rules.md) 和 [已确认偏好](references/preferences.md)，确定材料、用途、读者及授权范围。
 2. 按任务选择 [文档类型](references/document-types.md) 中相关部分。已有结构合理就保留，不强制套章节。
    知识讲解或技术分享另读 [知识讲解规范](references/knowledge-explanation.md)，不要套用方案评审结构。
-3. 先检查结构与论证，再处理语义和表达；短文本无需复杂流程。
+3. 先检查结构与论证，再处理语义和表达；按编辑规范做信息密度检查，去掉不增加事实、理由、条件或必要阅读引导的文字。短文本无需复杂流程。
 4. 对照原文检查信息保留、改写偏差和未解决疑点，按 [交付与版本](references/delivery-rules.md) 交付。
-5. 明确下一步建议；已授权且必要的工作继续完成，不用一句“可以继续”代替执行。
+5. 交付后即停止；只有存在待办或待决策事项时才给一个具体下一步。已授权且必要的工作继续完成，不用提问替代执行。
 
 其他模式：
 - 学习好文档：读 [范例学习](references/reference-learning.md) 和 [范例目录](examples/index.md)，先交提炼结果。
