@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>书在架上，为什么还要登记</title>
+<style>
+:root{color-scheme:light;--ink:#233235;--muted:#5e6d70;--line:#dce4e2;--accent:#246859;--soft:#edf5f1}
+*{box-sizing:border-box}body{margin:0;background:#f5f6f3;color:var(--ink);font:16px/1.8 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:980px;margin:40px auto;padding:48px 64px;background:white;border:1px solid var(--line);border-radius:8px}
+.kicker{font-size:13px;letter-spacing:.12em;color:var(--accent);margin:0 0 8px}h1{font-size:34px;line-height:1.35;margin:0 0 14px}h2{font-size:23px;line-height:1.5;margin:0 0 18px}h3{font-size:18px;margin:0 0 10px}
+p{margin:0 0 14px}.lead{color:var(--muted);font-size:17px}.note{padding:15px 20px;border-left:3px solid var(--accent);background:var(--soft);margin:24px 0}.note p:last-child{margin-bottom:0}
+section{padding-top:30px;margin-top:30px;border-top:1px solid var(--line)}.pair{display:grid;grid-template-columns:1fr 1fr;gap:26px}.panel{padding:22px;background:#f7f9f8;border:1px solid var(--line);border-radius:6px}.panel dl{margin:0}.panel dt{font-weight:650;margin-top:12px}.panel dd{margin:2px 0 0}
+.visual{display:grid;grid-template-columns:1.15fr 1fr;gap:24px;align-items:start}
+.flow{padding:22px;background:var(--soft);border-radius:6px}.step{padding:12px 16px;background:white;border:1px solid #b8cfc5;border-radius:5px}.arrow{text-align:center;color:var(--accent);line-height:1.4;padding:5px}
+small,figcaption{font-size:13px;color:var(--muted)}figure{margin:0}figcaption{margin-top:12px}.steps{margin:0;padding-left:22px}.steps li{margin-bottom:12px}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:540px;font-size:15px}caption{text-align:left;font-weight:600;margin-bottom:10px}th,td{border:1px solid var(--line);padding:12px 14px;vertical-align:top;text-align:left}thead{background:var(--soft)}tbody th{width:18%;background:#f8faf9}
+.warning{border-left-color:#aa7635;background:#fbf5e9}footer{margin-top:30px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+details{margin-top:24px;font-size:14px}summary{cursor:pointer;color:var(--accent);font-weight:600}details ul{padding-left:20px}
+@media(max-width:700px){main{margin:0;padding:28px 20px;border:0;border-radius:0}h1{font-size:28px}.pair,.visual{grid-template-columns:1fr;gap:16px}section{padding-top:24px;margin-top:24px}}
+@media print{body{background:white}main{border:0;margin:0;padding:0;max-width:none}.pair,.visual{grid-template-columns:1fr 1fr}details{display:none}h2,h3{break-after:avoid}.panel,.step,tr{break-inside:avoid}}
+</style>
+</head>
+<body><main>
+<header><p class="kicker">知识讲解示范</p><h1>书在架上，为什么还要登记</h1>
+<p class="lead">从一个虚构的社区借书室，理解目录与借阅记录各自解决什么问题。</p>
+<div class="note"><p><strong>阅读路线</strong>　先分清两种记录，再跟随一次借书，最后比较两种登记方式。下面的场景和规则均为演示构造，不代表真实机构的制度。</p></div></header>
+<section aria-labelledby="concepts"><h2 id="concepts">1　先分清目录和借阅记录</h2>
+<p>借书室里有一本《雨天散步》，编号为 B-17。目录告诉读者这是什么书、通常放在哪里；借阅记录告诉管理员这本书是否已被借走。两种记录回答不同的问题。</p>
+<div class="pair">
+<article class="panel"><h3>目录</h3><dl><dt>回答什么</dt><dd>这本书叫什么，应该到哪里找？</dd><dt>示例内容</dt><dd>B-17，《雨天散步》，第二排书架。</dd><dt>不能单独判断什么</dt><dd>现在是否能借走。目录有记录，不代表书正在架上。</dd></dl></article>
+<article class="panel"><h3>借阅记录</h3><dl><dt>回答什么</dt><dd>这本书是否已借出，目前由谁借阅？</dd><dt>示例内容</dt><dd>B-17，已借出，借阅人小林。</dd><dt>不能单独判断什么</dt><dd>书的完整介绍和日常摆放位置，需要结合目录查看。</dd></dl></article>
+</div></section>
+<section aria-labelledby="process"><h2 id="process">2　跟随一次借书</h2>
+<p>假设 B-17 此刻在架上，也没有未结束的借阅记录。本示例约定：管理员完成登记后，才把书交给借阅人。</p>
+<div class="visual"><figure><div class="flow" role="img" aria-label="核对书号与借出状态，然后登记借阅人，最后交书。任一步发现记录矛盾，应暂停交书。">
+<div class="step"><strong>核对</strong><br>书号 B-17，当前可借</div><div class="arrow" aria-hidden="true">↓</div>
+<div class="step"><strong>登记</strong><br>记录 B-17 由小林借阅</div><div class="arrow" aria-hidden="true">↓</div>
+<div class="step"><strong>交书</strong><br>登记完成后交给小林</div></div><figcaption>图中展示正常路径；记录冲突时先暂停核对。</figcaption></figure>
+<div><h3>每一步防止什么遗漏</h3><ol class="steps"><li><strong>先确认对象。</strong>核对书号，避免把同名书当成同一本。</li><li><strong>再留下记录。</strong>让下一位管理员知道这本书已经借出。</li><li><strong>最后交接。</strong>避免书离开后，登记册仍显示它可以借阅。</li></ol><p>如果书在架上，记录却显示已借出，先核对记录和实物，再决定是否交书。</p></div></div>
+</section>
+<section aria-labelledby="compare"><h2 id="compare">3　纸质和电子登记怎么比较</h2>
+<p>为了看清取舍，下面只比较两种明确设定的方式，不预设哪种更好。</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="登记方式比较表，可横向滚动"><table><caption>比较的是本示例中的具体配置</caption><thead><tr><th scope="col">比较维度</th><th scope="col">柜台纸质册</th><th scope="col">共享电子表</th></tr></thead><tbody>
+<tr><th scope="row">使用前提</th><td>登记册保存在柜台，现场书写。</td><td>本例只配置在线访问，需要可用网络和访问权限。</td></tr>
+<tr><th scope="row">如何查找</th><td>按书号翻查登记页。</td><td>按书号筛选记录。</td></tr>
+<tr><th scope="row">维护工作</th><td>保持字迹清楚，归还时更新原记录。</td><td>维护访问权限，归还时更新对应记录。</td></tr>
+<tr><th scope="row">需要另行解决</th><td>多人同时登记时如何轮流使用。</td><td>多人同时修改时如何避免冲突。</td></tr>
+</tbody></table></div>
+<div class="note warning"><p><strong>选择之前</strong>　先明确是否需要远程查阅、现场能否稳定联网，以及如何处理同时借阅。仅凭上表，还不能宣称电子登记一定更快或更准确。</p></div>
+</section>
+<details><summary>查看这段示范的排版说明</summary><ul>
+<li>第一节用对称分栏辨析概念，两栏保持相同的问题顺序。</li>
+<li>第二节把流程图和解释放在一起；图呈现顺序，正文解释原因与异常。</li>
+<li>第三节用共同维度比较方案；提示块保留选择条件。</li>
+<li>这是供审阅的组合示范，实际文档按需选用，不要求每篇用齐。</li>
+</ul></details>
+<footer>文档大师 0.2.0 审阅示范。内容为虚构，不含内部原文、图像或业务信息；样式尚未确认为长期偏好。</footer>
+</main></body></html>
