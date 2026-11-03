@@ -6,11 +6,11 @@
 
 ## 使用
 
-下载 GitHub Release 中的 `document-master-0.7.0.zip`，导入支持 Skill ZIP 的环境，或把包内 `document-master/` 放入宿主的 Skill 目录并重新加载。源码入口是 [SKILL.md](document-master/SKILL.md)。
+下载 GitHub Release 中的 `document-master-0.8.0.zip`，导入支持 Skill ZIP 的环境，或把包内 `document-master/` 放入宿主的 Skill 目录并重新加载。源码入口是 [SKILL.md](document-master/SKILL.md)。
 
 示例请求：“用文档大师润色这份方案，保留原意，交修订稿、关键改动和待核实项。”
 
-AgentBuddy 对应版本：`skills:skills.byted.org/default/public/document-master:0.7.0`。
+AgentBuddy 对应版本：`skills:skills.byted.org/default/public/document-master:0.8.0`。
 
 ## 能力与边界
 

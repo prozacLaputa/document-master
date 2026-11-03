@@ -17,3 +17,5 @@
 - [方案结论与工作记录反例](decision-not-activity.md)：区分可行性判断、证据结果和实施过程。
 
 - [技术方案完整示例](technical-solution.md)：虚构的报名防重方案，展示判断、取舍、总分设计和验证边界。
+
+- [预约取消PRD](prd-cancellation.md)：虚构讨论稿，展示行为、状态、异常、验收与阻塞项。
