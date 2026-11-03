@@ -1,0 +1,17 @@
+<title>借书前先看什么：目录、记录与交接（排版示范）</title>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow"><p><b>目录告诉你有什么书，借阅记录告诉你能不能借。</b>交书前先核对状态；记录和实物对不上，就暂停交接，查清后再继续。</p></callout>
+<p><span text-color="gray">本文为虚构场景，仅演示文档排版；流程与建议均为示例约定。</span></p>
+<h1><span text-color="blue">1.</span> 两种记录，回答不同问题</h1>
+<p>找书时先查目录，准备借走时再查借阅记录。<b>“目录里有这本书”不等于“这本书现在可以借”。</b></p>
+<table><colgroup><col width="130"/><col width="270"/><col width="420"/></colgroup><thead><tr><th background-color="light-gray"><p>记录</p></th><th background-color="light-gray"><p>回答什么</p></th><th background-color="light-gray"><p>示例字段与边界</p></th></tr></thead><tbody><tr><td><p><b>图书目录</b></p></td><td><p>有哪些书、放在哪里？</p></td><td><p>书号、书名、书架位置；不单独判断是否已借出。</p></td></tr><tr><td><p><b>借阅记录</b></p></td><td><p>这本书是否已借出？</p></td><td><p>书号、借出日期、归还状态；与目录用同一书号关联。</p></td></tr></tbody></table>
+<h1><span text-color="blue">2.</span> 交书前，把冲突拦下来</h1>
+<p>正常流程与异常分支放在同一张图里。<span text-color="green"><b>绿色路径表示可继续</b></span>；<span text-color="red"><b>红色分支表示暂停交接</b></span>。</p>
+<whiteboard type="svg" path="@demo-flow.svg"></whiteboard>
+<p>这张图的重点是<b>交接前的核对</b>：书在架上，但记录显示已借出时，不能凭“看见了书”就继续登记。</p>
+<h1><span text-color="blue">3.</span> 工具怎么选，异常怎么处理</h1>
+<h2><span text-color="blue">3.1</span> 根据使用方式选记录工具</h2>
+<table><colgroup><col width="150"/><col width="335"/><col width="335"/></colgroup><thead><tr><th background-color="light-gray"><p>比较维度</p></th><th background-color="light-gray"><p>纸质登记册</p></th><th background-color="light-gray"><p>共享电子表</p></th></tr></thead><tbody><tr><td><p>现场登记</p></td><td><p>拿到登记册即可写，适合固定地点交接。</p></td><td><p>需要可用设备与访问权限。</p></td></tr><tr><td><p>查找记录</p></td><td><p>按日期或书号翻查。</p></td><td><p>可按书号筛选，便于定位多条记录。</p></td></tr><tr><td><p>多人接班</p></td><td><p>需要交接同一本册子。</p></td><td><p>可共用一份表，但要约定字段与更新方式。</p></td></tr></tbody></table>
+<p><span text-color="green"><b>示例建议：</b></span>若多人轮流值班，优先考虑共享电子表；只有固定人员现场登记时，纸质册也可以。先选能持续维护的方式。</p>
+<h2><span text-color="blue">3.2</span> 状态明确后，再决定下一步</h2>
+<table><colgroup><col width="150"/><col width="300"/><col width="370"/></colgroup><thead><tr><th background-color="light-gray"><p>状态</p></th><th background-color="light-gray"><p>看到什么</p></th><th background-color="light-gray"><p>下一步</p></th></tr></thead><tbody><tr><td><p><span text-color="green"><b>可继续</b></span></p></td><td><p>记录显示可借，且书在架上。</p></td><td><p>登记本次借阅，再交书。</p></td></tr><tr><td><p><span text-color="red"><b>记录冲突</b></span></p></td><td><p>记录显示已借出，但书在架上。</p></td><td><p>暂停交书，核对是否漏记归还。</p></td></tr><tr><td><p><b>待查找</b></p></td><td><p>记录显示可借，但未找到实物。</p></td><td><p>查找位置与最近交接记录，暂不承诺可借。</p></td></tr></tbody></table>
+<callout emoji="📌" background-color="light-orange" border-color="orange"><p><b>查清后再更新状态。</b>补记录时保留原记录与更正说明，避免直接抹掉冲突线索。</p></callout>

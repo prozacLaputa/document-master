@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330">
+  <rect x="0" y="0" width="900" height="330" fill="#FFFFFF"/>
+  <g font-family="Noto Sans SC, PingFang SC, sans-serif">
+    <text x="35" y="40" font-size="24" font-weight="600" fill="#253B47">社区借书室 · 借阅流程</text>
+    <text x="660" y="40" font-size="20" fill="#807B73">虚构场景 · 演示约定</text>
+    <rect x="35" y="91" width="140" height="64" rx="32" fill="#EEF4F8" stroke="#6B91A8" stroke-width="2"/>
+    <text x="105" y="132" text-anchor="middle" font-size="24" fill="#365B72">查目录</text>
+    <polygon points="265,91 425,91 450,123 425,155 265,155 240,123" fill="#EDF6EF" stroke="#478363" stroke-width="2"/>
+    <text x="345" y="131" text-anchor="middle" font-size="23" fill="#285B40">核对借出状态</text>
+    <rect x="520" y="91" width="145" height="64" rx="12" fill="#EDF6EF" stroke="#478363" stroke-width="2"/>
+    <text x="592.5" y="132" text-anchor="middle" font-size="24" fill="#285B40">登记借阅</text>
+    <rect x="735" y="91" width="130" height="64" rx="32" fill="#387957"/>
+    <text x="800" y="132" text-anchor="middle" font-size="24" fill="#FFFFFF">交书</text>
+    <path d="M175 123 H225 M450 123 H505 M665 123 H720" fill="none" stroke="#478363" stroke-width="3"/>
+    <polygon points="225,117 236,123 225,129" fill="#478363"/>
+    <polygon points="505,117 516,123 505,129" fill="#478363"/>
+    <polygon points="720,117 731,123 720,129" fill="#478363"/>
+    <path d="M345 155 V210" fill="none" stroke="#BA514E" stroke-width="3"/>
+    <polygon points="339,210 345,221 351,210" fill="#BA514E"/>
+    <rect x="185" y="225" width="320" height="62" rx="12" fill="#FCEDEC" stroke="#BA514E" stroke-width="2"/>
+    <text x="345" y="265" text-anchor="middle" font-size="24" font-weight="600" fill="#A33E3B">记录冲突：暂停交书</text>
+    <text x="535" y="265" font-size="22" fill="#807B73">先核对记录与实物</text>
+  </g>
+</svg>

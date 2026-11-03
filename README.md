@@ -6,11 +6,11 @@
 
 ## 使用
 
-下载 GitHub Release 中的 `document-master-0.5.0.zip`，导入支持 Skill ZIP 的环境，或把包内 `document-master/` 放入宿主的 Skill 目录并重新加载。源码入口是 [SKILL.md](document-master/SKILL.md)。
+下载 GitHub Release 中的 `document-master-0.6.0.zip`，导入支持 Skill ZIP 的环境，或把包内 `document-master/` 放入宿主的 Skill 目录并重新加载。源码入口是 [SKILL.md](document-master/SKILL.md)。
 
 示例请求：“用文档大师润色这份方案，保留原意，交修订稿、关键改动和待核实项。”
 
-AgentBuddy 对应版本：`skills:skills.byted.org/default/public/document-master:0.5.0`。
+AgentBuddy 对应版本：`skills:skills.byted.org/default/public/document-master:0.6.0`。
 
 ## 能力与边界
 
@@ -18,7 +18,7 @@ AgentBuddy 对应版本：`skills:skills.byted.org/default/public/document-maste
 
 纯文本审校无需外部依赖；线上文档访问、写回、Office 文件生成和渲染依赖宿主工具及授权。默认交修订稿或副本，覆盖原稿、重要删除、改变结论和对外发布遵守明确授权范围。
 
-当前为试用版。结构和打包检查不等于跨平台运行验证；示范 HTML 尚未完成视觉验收。包中不含真实内网文档、凭据或个人语料。
+当前为试用版。结构和打包检查不等于跨平台运行验证；新增原生文档示范已检查桌面渲染，窄屏及其他宿主尚未验证；旧示范 HTML 未做视觉验收。包中不含真实内网文档、凭据或个人语料。
 
 ## 维护
 
