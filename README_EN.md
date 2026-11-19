@@ -6,15 +6,15 @@ A portable document editing and review skill for AI agents. It preserves meaning
 
 ## Usage
 
-Download `document-master-0.8.2.zip` from GitHub Releases and import it into a compatible host, or place its `document-master/` folder in the host's skill directory and reload. Start at [SKILL.md](document-master/SKILL.md).
+Download `document-master-0.9.0.zip` from GitHub Releases and import it into a compatible host, or place its `document-master/` folder in the host's skill directory and reload. Start at [SKILL.md](document-master/SKILL.md).
 
 Example: “Review this proposal with Document Master. Preserve its meaning and provide the revised draft, key changes and items requiring verification.”
 
-AgentBuddy version: `skills:skills.byted.org/default/public/document-master:0.8.2`.
+AgentBuddy version: `skills:skills.byted.org/default/public/document-master:0.9.0`.
 
 ## Scope and limitations
 
-Supports light editing, structural review, drafting, meeting notes, knowledge explanations and learning from authorized references. Formats depend on the reader's task.
+Supports light editing, structural review, drafting, technical proposals, PRDs, quarterly planning, meeting notes, knowledge explanations and learning from authorized references. Formats depend on the reader's task.
 
 Text review requires no external dependencies. Online access, writeback, file generation and rendering require host tools and permission. Original documents are preserved unless the relevant changes are explicitly authorized.
 
@@ -26,4 +26,6 @@ Both distribution channels use the same `document-master/` directory. See [RELEA
 
 No open-source license has been selected. Public visibility does not grant additional permissions.
 
-Version 0.8.2 favors useful comparison tables, diagrams for relationships and branches, inline emphasis, and callouts. A synthetic native-document example was visually inspected on desktop; mobile and other hosts remain unverified.
+Version 0.9.0 favors useful comparison tables, diagrams for relationships and branches, inline emphasis, and callouts. A synthetic native-document example was visually inspected on desktop; mobile and other hosts remain unverified.
+
+Version 0.9.0 adds first-draft checks for spacing, native tables and numbering, semantic colors, and post-edit layout preservation. Tool skills retain responsibility for valid operations and permissions. See the changelog for validation scope.
